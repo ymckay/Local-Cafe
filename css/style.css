@@ -11,8 +11,9 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
+
 
 body {
   font-family: 'Quicksand', Arial, Helvetica, sans-serif;
@@ -99,33 +100,34 @@ footer {
 }
 
 .card:hover {
-  transform: translateY(-8px);
+  /* transform: translateY(-8px); */
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
 }
 
 .carousel-caption {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(90, 67, 50, 0.3);
   backdrop-filter: blur(5px);
-  border-radius: 12px;
   padding: 1rem 2rem;
-  color: #4d3d33;
+  color: var(--complementary-color);
   max-width: 60%;
-  margin: 2rem auto;
+  margin: 1rem auto 0 auto;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  bottom: 30%;
+  top: auto;
+  transform: translateY(0);
 }
 
-.carousel-caption h1 {
-  font-size: 2rem;
+.carousel-caption h1,
+.carousel-caption h2 {
+  font-size: 4rem;
   font-weight: 600;
-  color: #3e2e20;
+  color: var(--complementary-color);
+  font-family: 'Gloock' , 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 3px;
 }
-
-.carousel-caption p {
-  font-size: 1rem;
-  color: #6e5a4b;
-  margin-bottom: 0;
+.carousel-img{
+  filter:brightness(80%);
 }
-
 /* contact section */
 #contact h1 {
   font-family: 'Quicksand', sans-serif;
@@ -173,7 +175,7 @@ footer {
 }
 
 /* scroll snap */
-.contents{
+/* .contents{
   height: 100vh;
   width: 100vw;
   scroll-snap-type: y mandatory;
@@ -188,14 +190,26 @@ section{
 footer {
   min-height: 30vh;
   width: 100vw;
-  scroll-snap-align: end; /* snapさせる */
-}
+  scroll-snap-align: end;
+} */
 
 /* media query */
 @media (max-width: 768px) {
-    #contact .btn {
+  #contact .btn {
     width: 100%;
     font-size: 1rem;
     padding: 0.75rem 1rem;
+  }
+}
+@media (max-width:992px){
+  .carousel-caption h1,
+  .carousel-caption h2 {
+    font-size: 2rem;
+  }
+}
+@media (max-width:576px){
+    .carousel-caption h1,
+  .carousel-caption h2 {
+    font-size: 1.5rem;
   }
 }
