@@ -105,8 +105,8 @@ footer {
 }
 
 .carousel-caption {
-  background-color: rgba(90, 67, 50, 0.3);
-  backdrop-filter: blur(5px);
+  background-color: rgba(90, 67, 50, 0.1);
+  backdrop-filter: blur(3px);
   padding: 1rem 2rem;
   color: var(--complementary-color);
   max-width: 60%;
@@ -211,5 +211,8 @@ footer {
     .carousel-caption h1,
   .carousel-caption h2 {
     font-size: 1.5rem;
+  }
+  .carousel-caption p{
+    font-size: 0.6rem;
   }
 }
