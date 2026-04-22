@@ -1,11 +1,10 @@
 # Local Cafe Website
 
 ## Overview
-This project was developed as part of my coursework.  
-I built a responsive cafe website using HTML, CSS, and Bootstrap.
+I built this project to practice responsive web design using HTML, CSS, and Bootstrap.
 
 ## Screenshot
-![Screenshot](./img/screenshot-home.png)
+<img src="./img/screenshot-home.png" width="600" alt="Local Cafe homepage">
 
 ## Features
 - Responsive layout
@@ -19,7 +18,7 @@ I built a responsive cafe website using HTML, CSS, and Bootstrap.
 - Bootstrap
 
 ## Live Demo
-https://local-cafe.pages.dev/
+[View Live Demo](https://local-cafe.pages.dev/)
 
 ## What I learned
 - Building responsive layouts with Bootstrap
