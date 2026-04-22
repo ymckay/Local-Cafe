@@ -4,6 +4,10 @@
 This project was developed as part of my coursework.  
 I built a responsive cafe website using HTML, CSS, and Bootstrap.
 
+## Screenshot
+![Screenshot](./img/screenshot-home
+.png)
+
 ## Features
 - Responsive layout
 - Clean and simple UI
